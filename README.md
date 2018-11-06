@@ -4,11 +4,11 @@ FSP Network Gen2 Server Infrastructure - kcptun server
 
 ![Docker Automated build](https://img.shields.io/docker/automated/fspnetwork/kcptun.svg?style=flat-square)
 ![Docker Build Status](https://img.shields.io/docker/build/fspnetwork/kcptun.svg?style=flat-square)
-![GitHub](https://img.shields.io/github/license/fastsp/docker-kcptun.svg?style=flat-square)
+![GitHub](https://img.shields.io/github/license/fspnet/docker-kcptun.svg?style=flat-square)
 
-![Kcptun](https://img.shields.io/badge/Kcptun-20181002-blue.svg)
+![Kcptun](https://img.shields.io/badge/Kcptun-20181002-blue.svg?style=flat-square)
 
-A docker image for [KCPTUN](https://github.com/xtaci/kcptun) support
+A docker image for [KCPTUN](https://github.com/xtaci/kcptun) server support
 
 ### Download from Docker Hub 
 
