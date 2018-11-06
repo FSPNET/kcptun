@@ -1,6 +1,6 @@
 # Shadowsocks Server with KCPTUN support Dockerfile
 
-FROM fspnetwork/ss
+FROM alpine:3.8
 
 ENV KCP_VER 20181002
 
