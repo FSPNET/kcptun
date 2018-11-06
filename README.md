@@ -16,22 +16,16 @@ A docker image for [shadowsocks-libev](https://github.com/shadowsocks/shadowsock
 
 ### Usage
 
-    docker run -p 1024:1024 -p 1024:1024/udp --rm -it fspnetwork/kcptun
-
-or running as a service
-
     docker run -d --restart=always -e "PASSWORD=123456" -p 1024:1024 -p 1024:1024/udp --name ssserver fspnetwork/kcptun
 
 ### Default configuration in environment variables
 
-    SS_PORT     8388
-
-    PASSWORD 123456
-
-    SS_METHOD   chacha20
-
-    SS_TIMEOUT  60
-
-    KCP_PORT    1024
+| Environment | Default |
+| - | - |
+| SS_PORT | 8838 |
+| PASSWORD | 123456 |
+| SS_METHOD | chacha20-ietf-poly1305 |
+| SS_TIMEOUT | 60 |
+| KCP_PORT | 1024 |
 
 based [kcp-shadowsocks-docker](https://github.com/hangim/kcp-shadowsocks-docker)
