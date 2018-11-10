@@ -13,7 +13,7 @@ RUN \
 COPY supervisord.conf /etc/supervisord.conf
 COPY config.json /etc/kcptun.json
 
-ENV KCP_PORT=1024 PASSWORD=123456
+ENV KCP_PORT=1024 SS_PORT=8388 PASSWORD=123456
 
 EXPOSE ${KCP_PORT}/tcp ${KCP_PORT}/udp
 

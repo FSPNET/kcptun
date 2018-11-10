@@ -16,7 +16,7 @@ A docker image for [KCPTUN](https://github.com/xtaci/kcptun) server support
 
 ### Usage
 
-    docker run -d --restart=always -e "PASSWORD=123456" -p 1024:1024 -p 1024:1024/udp --name ssserver fspnetwork/kcptun:server
+    docker run -d --restart=always -e "PASSWORD=123456" -p 1024:1024 -p 1024:1024/udp --name kcpserver fspnetwork/kcptun:server
 
 ### Default configuration in environment variables
 
@@ -24,3 +24,4 @@ A docker image for [KCPTUN](https://github.com/xtaci/kcptun) server support
 | - | - |
 | PASSWORD | 123456 |
 | KCP_PORT | 1024 |
+| SS_PORT | 8388 |
