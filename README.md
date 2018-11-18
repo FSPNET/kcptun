@@ -2,11 +2,11 @@
 
 FSP Network Gen2 Server Infrastructure - kcptun
 
-![Docker Automated build](https://img.shields.io/docker/automated/fspnetwork/kcptun.svg?style=flat-square)
-![Docker Build Status](https://img.shields.io/docker/build/fspnetwork/kcptun.svg?style=flat-square)
+[![Docker Automated build](https://img.shields.io/docker/automated/fspnetwork/kcptun.svg?style=flat-square)](https://hub.docker.com/r/fspnetwork/kcptun)
+[![Docker Build Status](https://img.shields.io/docker/build/fspnetwork/kcptun.svg?style=flat-square)](https://hub.docker.com/r/fspnetwork/kcptun)
 ![GitHub](https://img.shields.io/github/license/fspnet/docker-kcptun.svg?style=flat-square)
 
-![Kcptun](https://img.shields.io/badge/Kcptun-20181002-blue.svg?style=flat-square)
+![Kcptun](https://img.shields.io/badge/Kcptun-20181114-blue.svg?style=flat-square)
 
 A docker image for [KCPTUN](https://github.com/xtaci/kcptun) support
 
@@ -44,5 +44,3 @@ A docker image for [KCPTUN](https://github.com/xtaci/kcptun) support
 | PASSWORD | 123456 |
 | KCP_PORT | 1024 |
 | KCP_REMOTE | host |
-
-based [kcp-shadowsocks-docker](https://github.com/hangim/kcp-shadowsocks-docker)
