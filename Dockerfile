@@ -2,7 +2,7 @@
 
 FROM alpine:3.8
 
-ENV KCP_VER 20181114
+ENV KCP_VER 20190109
 
 RUN \
     apk add --no-cache --virtual .build-deps curl \
@@ -13,7 +13,7 @@ RUN \
 COPY supervisord.conf /etc/supervisord.conf
 COPY config.json /etc/kcptun.json
 
-ENV KCP_PORT=1024 PASSWORD=123456 KCP_REMOTE=host
+ENV KCP_PORT=443 KCP_REMOTE_PORT=1024 PASSWORD=123456 KCP_REMOTE=host
 
 EXPOSE ${KCP_PORT}/tcp ${KCP_PORT}/udp
 
