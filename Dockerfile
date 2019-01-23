@@ -2,7 +2,7 @@
 
 FROM alpine:3.8
 
-ENV KCP_VER 20181114
+ARG KCP_VER=20190109
 
 RUN \
     apk add --no-cache --virtual .build-deps curl \
